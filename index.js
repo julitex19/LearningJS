@@ -27,4 +27,6 @@ function longestString(arr) {
      return longest;
    }
    console.log(longestString(arr))
+
+   // OBI JULIET
    
