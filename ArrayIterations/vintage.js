@@ -95,15 +95,15 @@ const cars = [
 function firstFactorial(num){
    let vintage = 1;
   for(let i = 1; i <= num; i++){
-    // factorial = factorial * i;
-    vintage *= i
+    vintage = vintage * i;
+    // vintage *= i
   }
   return vintage;
   }
   console.log(firstFactorial(5))
 
 
-  // You are counting points for a basketball game, given the amount of 2-pointers scored 
+//   You are counting points for a basketball game, given the amount of 2-pointers scored 
 // and 3-pointers scored, find the final points for the team and return that value.
 
 
@@ -118,8 +118,8 @@ function calculateFinalScore(twoPointers, threePointers) {
  console.log(calculateFinalScore(4, 5))
 
 
- //Given two numbers, return true if the sum of both 
-//numbers is less than 100. Otherwise return false.
+//  Given two numbers, return true if the sum of both 
+// numbers is less than 100. Otherwise return false.
 function lessThan100(a, b) {
 	let sum = a + b
   if(sum < 100){
@@ -148,8 +148,62 @@ console.log(twoArg(8,10))
 
 
 
-//Have the function LongestWord(sen) take the sen parameter being passed and 
-//return the longest word in the string. If there are two or more words that 
-//are the same length, return the first word from the string with that length. 
-//Ignore punctuation and assume sen will not be empty. Words may also contain numbers,
+// Have the function LongestWord(sen) take the sen parameter being passed and 
+// return the longest word in the string. If there are two or more words that 
+// are the same length, return the first word from the string with that length. 
+// Ignore punctuation and assume sen will not be empty. Words may also contain numbers,
 // for example "Hello world123 567"
+
+
+
+
+// Write a code which can give grades to students according to theirs scores:
+// 80-100, A
+// 70-89, B
+// 60-69, C
+// 50-59, D
+// 0-49, F
+
+// const grade = 60;
+
+// if(grade >= 80 && grade <= 100){
+//     console.log('score = A');
+
+// }else if(grade >= 70 && grade < 80){
+// console.log('score = B');
+
+// }else if(grade >= 60 && grade < 70){
+//   console.log('score = C')
+
+// }else if(grade >= 50 && grade <60){
+//   console.log('score = D')
+
+// }else if(grade >= 30 && grade < 40){
+//   console.log('score = E')
+// }else{
+//   console.log('score = F')
+// }
+
+   
+
+
+// Temperature in degree Celsius(oC) can be converted to degree Fahrenheit(oF) using this formula: oF = (oC x 9/5) + 32. Write a function which converts oC to oF convertCelsiusToFahrenheit.
+
+     // function convertCelsiusToFahrenheit(celsius) {
+     //      let fahrenheit = (celsius * 9/5) + 32;
+     //      return fahrenheit;
+     // }
+     //    console.log(convertCelsiusToFahrenheit(4));
+        
+     // Implement a function that takes in an array of integers and 
+     //returns the second-highest number in the array.
+
+     // const arr = [2, 45,70, 29, 9, 3]
+     // function intSort(arr){
+     //   //sort the array of integers from highest number to lowest
+     //   const sortedArray = arr.sort((a,b)=>b-a)
+     
+     //   //return the second highest number in the sorted array
+     //   return sortedArray[1]
+     // }
+     // console.log(intSort(arr))
