@@ -22,4 +22,4 @@ console.log(answer)
 
 // // const result = favourites(boys) 
 
-// console.log(favourites(boys))
+// console.log(favourites(boys))6

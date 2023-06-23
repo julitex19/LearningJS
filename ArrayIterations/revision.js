@@ -96,6 +96,7 @@ for(let i = 0; i < len; i++){
 
 // console.log(result);
 
+
 //number 5
 // let arrNum = [4, 5, 3, 7, 1, 8, 0, 9,  2, 6];
 // function findIndex(ages, juliet){

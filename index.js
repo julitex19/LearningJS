@@ -1,32 +1,42 @@
-// Write a function that takes in an array of numbers
-//  and returns the sum of all the even numbers in the array.
+// const timesToRepeat = 5;
+// const character = ''; 
 
-// const arr = [12, 4, 6, 9, ]
-// function sumOfEvenNumbers(arr){
-//      let sum = 0;
-//      for(let i = 0; i < arr.length; i++){
-//           if(arr[i] % 2 === 0){
-//                sum += arr[i];
-//           }
-//           return sum
+// // let answer = " ";
+// // for(let i = 0; i < timesToRepeat; i++){
+// //     answer = answer + character;
+// // }
+// console.log("".padStart(timesToRepeat, character));
+// const cars = ['venza', 'camry', 'lambo', 'lexus', 'ford', 'matrix'];
+// let result = [];
+// function brandOfCars(cars){
+//      for(let i = 0; i < cars.length; i++){
+// cars[i] = (cars[i]).toUpperCase();
+
 //      }
+//      return cars;
 // }
-//    console.log(sumOfEvenNumbers(arr))
-  
+// console.log(brandOfCars(cars))
 
-// Write a function that takes in an array of strings and 
-// returns the string with the longest length.
-const arr = ['juliet', "nneamaka", 'victor', 'prince', 'vitalis']
-function longestString(arr) {
-     let longest = "";
-     for (let i = 0; i < arr.length; i++) {
-       if (arr[i].length > longest.length) {
-         longest = arr[i];
-       }
-     }
-     return longest;
-   }
-   console.log(longestString(arr))
+// const ages = [25, 35, 54, 64, 95];
 
-   // OBI JULIET
-   
+// function devide(ages){
+//     return ages.map(function(item){
+//         return item/5
+//     })
+// }
+// const answer = devide(ages)
+// console.log(answer)
+
+const boys = ['kwankwaso', 'obi', 'atiku', 'tinubu'];
+
+function favourites(boys){
+  return boys.filter(function(item){
+    if(item === 'obi' || item){
+      return item
+    }
+  })
+}
+
+// const result = favourites(boys) 
+
+console.log(favourites(boys))
