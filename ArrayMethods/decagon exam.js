@@ -1,20 +1,20 @@
-// const arr = ['j', 'e'];
+const arr = ['j', 'e'];
 
-// let sum = 0;
+let sum = 0;
 
-// function sumLetters(arr){
-//   for(let i = 0; i < arr.length; i++){
-//     if(arr[i] === 'a' || arr[i] === 'e' || arr[i] === 'i' || arr[i] === 'o' || arr[i] === 'u'){
-//       sum += 1
-//     } else {
-//       sum += 6
-//     }
-//   }
-// }
+function sumLetters(arr){
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] === 'a' || arr[i] === 'e' || arr[i] === 'i' || arr[i] === 'o' || arr[i] === 'u'){
+      sum += 1
+    } else {
+      sum += 6
+    }
+  }
+}
 
-// sumLetters(arr)
+sumLetters(arr)
 
-// console.log(sum);
+console.log(sum);
 
 
 

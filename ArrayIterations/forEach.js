@@ -10,20 +10,20 @@ number.forEach(function(item){
     console.log(item)
 })
 
-// console.log(arr)
+console.log(arr)
 
 
 
-const ages = [5, 6, 2, 7, 0];
-const juliet = 4;
-function findIndex(ages, juliet){
-    for (let i = 0; i < ages.length; i++){
-        if(ages[i] === juliet){
-            return i;
-        }
+// const ages = [5, 6, 2, 7, 0];
+// const juliet = 4;
+// function findIndex(ages, juliet){
+//     for (let i = 0; i < ages.length; i++){
+//         if(ages[i] === juliet){
+//             return i;
+//         }
 
-    }
-    return '"not found"'
-}
+//     }
+//     return '"not found"'
+// }
 
-console.log(findIndex(ages, juliet));
+// console.log(findIndex(ages, juliet));
